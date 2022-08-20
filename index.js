@@ -2,6 +2,7 @@ console.log("News Website");
 // 75098fa5661e4e1985f6826272b071dd
 
 let source = 'the-times-of-india';
+source = 'data.json'
 let apiKey = '75098fa5661e4e1985f6826272b071dd'
 
 
