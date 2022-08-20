@@ -12,7 +12,7 @@ const xhr = new XMLHttpRequest();
 //xhr.open('GET' ,'https://newsapi.org/v2/top-headlines?country=in&apiKey=75098fa5661e4e1985f6826272b071dd' , true );
 xhr.open('GET' ,'https://newsapi.org/v2/top-headlines?country=in&apiKey=75098fa5661e4e1985f6826272b071dd' , true );
 //xhr.open('GET', `https://ashwinsheoran02.github.io/News-API/data.json`, true);
-//xhr.getAllResponseHeaders('Content-type' , 'application/json');
+    //xhr.getAllResponseHeaders('Content-type' , 'application/json');
 
 xhr.onload = function () {
     if (this.status === 200) {
