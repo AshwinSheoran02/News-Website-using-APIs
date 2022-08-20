@@ -3,7 +3,7 @@ News Website using APIs
 
 The website can only be acessed locally because of API restrictions
 
-To use the website , simply download the runs and open ```index.html``` in Google Chrome and you can access realtime news.
+To use the website , simply download the rfiles and open ```index.html``` in Google Chrome and you can access the latest news.
 
 You can get your own API key at https://newsapi.org/
 
