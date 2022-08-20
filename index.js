@@ -9,7 +9,7 @@ let newsaccordion = document.getElementById('newsaccordion');
 
 const xhr = new XMLHttpRequest();
 //xhr.open('POST' ,'https://newsapi.org/v2/top-headlines/sources?apiKey=75098fa5661e4e1985f6826272b071dd' , true );
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${apiKey}`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}`, true);
 //xhr.getAllResponseHeaders('Content-type' , 'application/json');
 
 xhr.onload = function () {
